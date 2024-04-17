@@ -1,0 +1,6 @@
+
+CREATE TABLE ContactOfAppli (
+    ContactID INT PRIMARY KEY AUTO_INCREMENT,
+    Email VARCHAR(120) NOT NULL,
+    PhoneNumber VARCHAR(15) NOT NULL
+);
